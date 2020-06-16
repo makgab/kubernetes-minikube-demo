@@ -3,6 +3,7 @@ Minikube demo deployment
 
 
 Original from quay.io/ryanj/metrics-k8s
+https://github.com/ryanj/metrics-k8s
 Thanks!
 
 
