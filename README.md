@@ -8,10 +8,10 @@ Thanks!
 
 # USING
 
-* Method 1.: Install deployment:
+* Method #1 Install deployment:
 kubectl create -f deployment.yaml
 
-* Method 2.: Install pod with json:
+* Method #2 Install pod simply with json:
 kubectl create -f pod.json
 kubectl expose pods/metrics-k8s --port=2015 --type=NodePort
 minikube service metrics-k8s --url
@@ -34,8 +34,8 @@ kubectl scale deploy/metrics-k8s --replicas=3
 
 Upate image:
 kubectl set image deploy/metrics-k8s metrics-k8s=quay.io/ryanj/metrics-k8s:latest
-### kubectl set image deploy/metrics-k8s metrics-k8s=quay.io/ryanj/metrics-k8s:v1
-### kubectl get rs,deploy
+kubectl set image deploy/metrics-k8s metrics-k8s=quay.io/ryanj/metrics-k8s:v1
+kubectl get rs,deploy
 
 * Check the history:
 kubectl rollout history deploy/metrics-k8s
