@@ -55,7 +55,7 @@ kubectl rollout history deploy/metrics-k8s
 ```
 
 
-* Rollout previously version:
+* Rollout to previous version:
 ```
 kubectl rollout undo deployment metrics-k8s
 ```
